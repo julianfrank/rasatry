@@ -90,3 +90,27 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: ask_lower_stress
+  examples: |
+    - What do i do when Im too stressed
+    - how can I lower my stress
+    - what are some good ways to lower stress
+    - tell me some good ways to relax
+    - stress is killing me. Help please
+
+- intent: ask_eat_healthy
+  examples: |
+    - whats considered a healthy diet
+    - whats is a good diet
+    - how do i track my diet
+    - what is an example of an healthy diet
+    - do do I eat healthy
+
+- intent: ask_exercise
+  examples: |
+    - whats is an example of an exercise
+    - could you suggest a good exercise
+    - is walking an exercise
+    - is talking an exercise
+    - how much time should i spend in the gym

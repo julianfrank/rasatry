@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_lower_stress
+  - ask_eat_healthy
+  - ask_exercise
 
 responses:
   utter_greet:
@@ -28,6 +31,19 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_stress_info:
+  - text: "Its ok to be overwhelmed"
+  - text: "Mybe it is not stress but your belly"
+
+  utter_health_tip:
+  - text: "eat only when hungry"
+  - text: "eat what u need to eat not what u want to eat"
+
+  utter_exercise:
+  - text: "running and walking are simple exercises"
+  - text: "talking is not a exercise"
+  - text: "60-90 mins is a good time to be spent on exercise everyday"
 
 session_config:
   session_expiration_time: 60

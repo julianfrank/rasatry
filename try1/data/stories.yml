@@ -28,3 +28,24 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: ask a stress question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_lower_stress
+  - action: utter_stress_info
+
+- story: ask a health question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_eat_healthy
+  - action: utter_health_tip
+
+- story: ask a exercise question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_exercise
+  - action: utter_exercise
