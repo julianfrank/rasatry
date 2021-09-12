@@ -1,13 +1,14 @@
 name: rasapy38
 channels:
-  - conda-forge
   - defaults
 dependencies:
   - python=3.8
-  - rasa=2.8.2
-  - rasa-sdk=2.8.1
-  - SQLAlchemy=1.3.22
-  - sanic-jwt==1.6.0
+  - pip:
+    - rasa
+    # - rasa=2.8.2
+    # - rasa-sdk=2.8.1
+    # - SQLAlchemy=1.3.22
+    # - sanic-jwt==1.6.0
 variables:
   NODE_ENV: dev
   ENV_NAME: rasapy38
