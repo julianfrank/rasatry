@@ -1,0 +1,36 @@
+# rasax specific settings
+rasax:
+  #tag: "0.41.2"
+  # initialUser is the user which is created upon the initial start of Rasa X
+  initialUser:
+    # password for the Rasa X user
+    password: "PASSword"
+  # passwordSalt Rasa X uses to salt the user passwords
+  passwordSalt: "PASSword"
+  # token Rasa X accepts as authentication token from other Rasa services
+  token: "PASSword"
+  # jwtSecret which is used to sign the jwtTokens of the users
+  jwtSecret: "PASSword"
+  tag: "0.42.0"
+# rasa: Settings common for all Rasa containers
+rasa:
+  #tag: "2.7.1"
+  # token Rasa accepts as authentication token from other Rasa services
+  token: "PASSword"
+  tag: "2.8.0-full"
+# RabbitMQ specific settings
+rabbitmq:
+  # rabbitmq settings of the subchart
+  rabbitmq:
+    # password which is used for the authentication
+    password: "PASSword"
+# global settings of the used subcharts
+global:
+  # postgresql: global settings of the postgresql subchart
+  postgresql:
+    # postgresqlPassword is the password which is used when the postgresqlUsername equals "postgres"
+    postgresqlPassword: "PASSword"
+  # redis: global settings of the redis subchart
+  redis:
+    # password to use in case there no external secret was provided
+    password: "PASSword"
